@@ -9,6 +9,8 @@
 
 .half_container_one { width: 48%; float: left; }
 .half_container_two { width: 48%; float: right; }
+.third_thin { width: 33%; float: left; }
+.third_thick { width: 64%; float: left; }
 .cell { width: 100% !important; background-color: #254356; padding: 1px 30px !important; border-radius: 8px; box-sizing: border-box !important; margin-bottom: 10px !important; position: relative; min-height: 78px; box-sizing: border-box; }
 .button_stroke { width: auto !important; background-color: none; border: 3px solid #FFF !important; padding: 0px 30px !important; border-radius: 8px; box-sizing: border-box !important; margin-bottom: 10px !important; position: relative; display: inline-block !important; cursor: pointer; }
 .button_stroke p { margin: 15px 0px !important; }
@@ -22,6 +24,16 @@ ol, dl, ul { margin: 0 0 0 12px !important; }
 
 ul li ul li { font-size: 24px !important; opacity: 0.7; }
 .sub_sub_point { font-size: 24px !important; opacity: 0.7; }
+
+code {
+    padding: 1px 10px !important;
+    font-family: monospace, serif;
+    font-size: 1em;
+    white-space: pre-wrap;
+    border: rgba(255,255,255, 0.3) 1px solid !important;
+    background: none;
+    border-radius: 5px;
+}
 
 .third_container_one { width: 30%; float: left; }		
 .third_container_two { width: 30%; margin: 0px 5% !important; float: left; }		
