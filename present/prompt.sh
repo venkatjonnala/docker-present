@@ -73,7 +73,7 @@ select PRES in ${MENU}; do
                -p ${PORT}:${PORT} \
                --entrypoint="$(pwd)/present.py" \
                --volumes-from ${HOSTNAME} \
-               training/docker-present ${PRES} ${PORT}
+               trainingteam/docker-present:dev ${PRES} ${PORT}
     exit 1
   fi
 done
