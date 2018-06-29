@@ -127,3 +127,4 @@ To customize the theme modify the following files:
   - Note: These lines must stay in the template. The controller replaces them with the presentation sections: https://github.com/docker-training/docker-present/blob/master/present/templates/index.html#L39-L43
 - The primary css file: https://github.com/docker-training/docker-present/blob/master/present/css/docker.css
 - The code syntax highlighting css file: https://github.com/docker-training/docker-present/blob/master/present/css/docker-code.css
+//docs are different.
